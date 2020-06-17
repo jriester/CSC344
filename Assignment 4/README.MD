@@ -12,4 +12,6 @@ space).
 n Prolog you will create a program which automatically figures out where the mirrors should be placed, given a height of laser emitter, 
 and the coordinates of obstacles on the ceiling. You must output where these mirrors will go.
 
+![Illustrative Image](http://danielschlegel.org/wp/wp-content/uploads/2017/10/LaserProblem.png)
+
 A full writeup is available at: https://danielschlegel.org/wp/teaching/csc344-spring-2019/assignment-4/
