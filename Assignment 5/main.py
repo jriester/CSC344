@@ -66,7 +66,7 @@ def writeHTML(files, linecount, count, id):
     html.write("Number of lines: " + str(linecount) + "<br>")
     html.write("</body>")
 
-    # Create source file link**** ISSUE HERE****
+    # Create source file link
     href = "../" + str(count) + "/" + files
     html.write("<font size=6")
     html.write("<br><a href='" + href + "'>" + files + "</a>")
