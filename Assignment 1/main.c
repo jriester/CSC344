@@ -39,7 +39,7 @@ struct instructions createInst(int state, char redVal, char write, enum moveDire
 }
 struct instructions getInstructions(struct instructions** array, int row, int val) {
     //finds instruction in [][] with values given            ^        ^        ^
-    struct instructions *i = malloc(sizeof(struct instructions)); //maybe didnt need to do this?
+    struct instructions *i = malloc(sizeof(struct instructions)); 
 
     if (array[row][val].readVal == '\0') {
         printf("Can't read instructions at %d %d", row, val);
